@@ -42,9 +42,6 @@ html, body {
 	background-size: cover;
 }
 
-body {
-	/*Use vw to make text responsive to screen*/
-}
 
 p {
 	font-size:1.5em;
@@ -243,13 +240,45 @@ h1 {
 	line-height: 32px;
 }
 
-@media (min-width: 1200px) {
-.container {
-    width: 970px;
-}
-}
-
 .container-fluid {
   padding-right: 0;
   padding-left: 0;
 }
+
+@media (min-width: 1200px) {
+	.container {
+	    width: 970px;
+	}
+}
+
+@media (max-width: 720px){
+
+	h1{
+		font-size: 6px;
+	}
+
+	.title{
+		font-size: 2em;
+	}
+
+	h5{
+		font-size: 1.5em;
+	}
+
+	p{
+		font-size: 0.9em;
+		line-height: 1.3em;
+	}
+
+	.para-text{
+		font-size: 0.9em;
+		line-height: 1.3em;
+	}
+
+}
+
+
+
+
+
+
